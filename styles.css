@@ -1,0 +1,230 @@
+body{
+    background:  lavender;
+    margin: 0;
+}
+.other{
+   
+    div{
+        height: 100%;
+        width: 200px;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        border: none;
+    
+    }
+    a{
+        color: bisque;
+        font-size: larger;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        top: 35%;
+        margin-bottom: 20px;
+        transition: 0.4s all ease;
+    }
+    
+    a:hover{
+        color:  rgb(5, 216, 253);
+        transition: 0.4s all ease;
+    }
+    h1{
+        position: absolute;
+        text-align: center;
+        left: 250px;
+        top: 180px;
+        color: rgb(10, 10, 10);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+    }
+    .box-1{
+        background-color: rgb(41, 65, 53);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    span{
+        
+        color: rgb(180, 43, 180);
+    }
+    .h1{
+        position: absolute;
+        top: 230px;
+    }
+    button{
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        color: rgb(160, 52, 52);
+        position: absolute;
+        text-align: center;
+        display: block;
+        left: 310px;
+        top: 405px;
+        height: 30px;
+        border-radius: 30px;
+        border-right:chartreuse;
+        border-left:chartreuse;
+        border-left-style: solid ;
+        border-right-style: solid ;
+        border-top: none;
+        border-bottom: none;
+    
+    }
+    button:hover{
+        background-color: rgb(180, 43, 180);
+        transition: 0.40s all ease-in-out;
+    }
+    
+    .box-2{
+        height: 200px;
+        width: 180px;
+        background-color: transparent;
+        border-style: solid;
+        border-color: transparent;
+        border-right-color: rgb(180, 43, 180);
+        border-bottom-color: rgb(180, 43, 180) ;
+        position: absolute;
+        right:510px;
+        top:180px;
+    }
+    
+
+    
+    
+    .box-3{
+        height: 200px;
+        width: 180px;
+        background-color: transparent;
+        border-style: solid;
+        border-color: transparent;
+        border-left-color: rgb(180, 43, 180);
+        border-top-color: rgb(180, 43, 180) ;
+        position: absolute;
+        left: 230px;
+        top: 180px;
+    }
+    
+}
+h1{
+    color:rgb(196, 68, 247);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 9em;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    
+}
+h2{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    position: relative;
+    text-align: center;
+    bottom: 160px;
+}
+span{
+    color: blueviolet;
+}
+div{
+    background-color: transparent;
+    border-right-style:groove ;
+    border-left-style: groove;
+    border-color: rgb(204, 108, 245);
+    border-width: 10px;
+    height: 200px;
+    width: 98.3%;
+    position: relative;
+    bottom: 300px;
+    padding-left: 3px;
+}
+.box-1{
+    background-color: rgb(85, 45, 122);
+    width: 600px;
+    height: 160px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 150px;
+    top: 340px;
+}
+.box-2{
+    background: #5c5af5;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: none;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 60px; ;
+}
+h3{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    position: relative;
+    bottom: 20px;
+}
+.introduction{
+    color: bisque;
+}
+.owohub{
+    color: rgb(9, 235, 243);
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(145, 36, 139) ;
+    text-align: right;
+    font-size:20px;
+    position: relative;
+    right: 60px;
+    bottom: 150px;
+    
+
+}
+.services{
+    font-size: 80px;
+    position: relative;
+    bottom: 150px;
+    right: 80px;
+    text-align: right;
+}
+.p{
+    color: rgb(40, 3, 250);
+}
+.what-our-clients-say{
+    font-size: 80px;
+    position: absolute;
+    top: 800px;
+    text-align: left;
+    left: 70px;
+
+}
+.box-3{
+    background-color: transparent;
+    height: 130px;
+    width: 600px;
+    position: relative;
+    top: 3px;
+    border-right: none;
+    border-left-color: rgb(255, 255, 255);
+}
+.p-1{
+    position: relative;
+    top: 10px;
+    left: 7px;
+    text-align: left;
+}
+
+
+.box-4{
+    height: 50px;
+    border: none;
+    width: 99.8%;
+    position: relative;
+    background-color: blue;
+    top: 100px;
+}
